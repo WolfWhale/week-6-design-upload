@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0;
+    /* background-color: #f7f7f7; */
+}
+
+
+
+
+img{
+    width: 170px;
+    height: 150px;
+    
+    cursor: pointer;
+    /* background-color: aqua; */
+}
+
+
+
+
+header{ /*BTS main logo*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 49px 4% 29px 4%;
+    /* background-color: aquamarine; */
+}
+
+.nav_links{ /* Header links Spacing*/
+    list-style: none;
+    padding-bottom: 70px;
+    cursor: pointer;
+    
+    
+}
+.nav_links2 { /* Header links style*/
+    list-style: none;
+    cursor: pointer;
+    padding-left: 10px;
+
+}
+.nav_links li{
+   display: inline-block;
+   padding:0px 20px;
+    padding-left: 40px;
+    font-weight: bold;
+   
+}
+.nav_links2 li{
+    display: inline-block;
+    padding:0px 20px;
+    padding-left: 90px;
+    /* background-color: aquamarine; */
+} 
+
+
+.brand_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.brand_container{
+    display: flex;
+    align-items: center;
+}
+
+.bts .bts2{
+    font-weight: bold;
+    font-size: 30px;
+    /* position: absolute; */
+    /* left: 240px;    */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+.bar{
+    background-color: #6667AB;
+    display: flex;
+    padding:15px;
+    width:auto; 
+}   
+
+
+.grid-container {
+    overflow: hidden;
+    /* display: grid; */
+    display: flex;
+    margin-left: auto;
+
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap: -50px;  */
+}
+
+.mid_body{    /*Main body div for mid grid*/
+    padding-top: 30px;
+    /* background-color: aqua; */
+    overflow: hidden;
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    grid-gap: 40px; 
+}
+
+.mid_body p{
+    
+    max-width: 135px;
+    min-width: 3235px;
+    height: 400px;
+    padding-left: 8px;
+}
+
+
+.texxt{
+    padding-right: 200%; /* moves book*/
+    
+}
+
+
+
+
+
+
+
+.texxt3 { /* Text BG color*/
+
+    background-color: #d9d9ea;
+   padding-left: 22%;
+    
+    padding-top: 20px;
+    text-align:left
+    
+  
+    height: 400px;
+    margin-top: 10px;
+}
+.texxt4{ /* Text BG color*/
+    
+    font-size: 15px;
+    line-height: 26px;
+    margin-right: 0px;
+    margin-left: -40px;
+    margin-top: 5px;
+    background-color: #d9d9ea;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.mid_body{ /*postion of 3 middle blocks*/
+    padding-left: 7%;
+    
+    /* background-color: brown; */
+}
+
+
+
+
+
+
+.button1{
+    background-color: #d9d9ea;
+    margin-bottom: 20px;
+    
+}
+
+.button2 button{
+   
+    margin-top: -0px;
+    margin-left: 540px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    display: block;
+    border: none;
+    background-color: #afacd4;
+    color: #d9d9ea;
+    cursor: pointer;
+}
+
+
+
+.button2{
+    background-color: #d9d9ea;
+    
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+
+
+
+
+.space{
+    padding-top: 80px;
+}
+
+.rate{
+    background-color: #d9d9ea;
+    margin-top: 4px;
+    margin-left: 20%;
+}
+.rate2{
+    background-color: #d9d9ea;
+    margin-top: 0px;
+    margin-left: 20%;
+}
+.rate img{
+    background-color: #d9d9ea;
+    margin-left: -2px;
+    width: 20px;
+    height: 20px;
+}
+
+.elis{
+    
+   display: flex;
+   flex-wrap: wrap;
+  
+    margin-left: -22%;
+    width: 0%;
+}
+.elis img{
+    margin-top: -30%;
+    margin-left: -10%;
+    display: flex;
+   flex-wrap: wrap;
+    /* background-color: #d9d9ea; */
+}
+
+
+.text_elis {
+    margin-top: -30px;
+    /* background-color: #d9d9ea; */
+    margin-right: 20px;
+    
+    
+}
+
+.title{
+    padding-bottom: -10px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    margin-left:-10% ;
+    background-color: #d9d9ea;
+}
+
+.text_elis u{
+    background-color: #d9d9ea;
+}
+
+

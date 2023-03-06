@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+
+
+
+img{
+    width: 170px;
+    height: 150px;
+    
+    cursor: pointer;
+    /* background-color: aqua; */
+}
+
+
+
+
+header{ /*BTS main logo*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 49px 4% 29px 4%;
+    /* background-color: aquamarine; */
+}
+
+.nav_links{ /* Header links Spacing*/
+    list-style: none;
+    padding-bottom: 70px;
+    cursor: pointer;
+    
+    
+}
+.nav_links2 { /* Header links style*/
+    list-style: none;
+    cursor: pointer;
+    padding-left: 10px;
+
+}
+.nav_links li{
+   display: inline-block;
+   padding:0px 20px;
+    padding-left: 40px;
+    font-weight: bold;
+   
+}
+.nav_links2 li{
+    display: inline-block;
+    padding:0px 20px;
+    padding-left: 90px;
+    /* background-color: aquamarine; */
+} 
+
+.brand_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.brand_container{
+    display: flex;
+    align-items: center;
+}
+
+
+.bts .bts2{
+    font-weight: bold;
+    font-size: 30px;
+    /* position: absolute; */
+    /* left: 240px;    */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+.bar{
+    background-color: #6667AB;
+    display: flex;
+    padding:15px;
+    width:auto; 
+}   
+
+.armyCon{
+    /* background-color: aqua; */
+    margin-top: -70px;
+    padding-bottom: 30px;
+    
+}
+
+.armyzz{
+    /* background-color: aquamarine; */
+    margin-left: 65%;
+    width: 22px;
+    height: 40px;
+}
+
+
+
+
+.grid-container {
+    overflow: hidden;
+    /* display: grid; */
+    display: flex;
+    margin-left: auto;
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap: -50px;  */
+}
+
+.mid_body{    /*Main body div for mid grid*/
+    padding-top: 30px;
+    /* background-color: aqua; */
+    overflow: hidden;
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    grid-gap: 40px; 
+}
+
+.mid_body p{
+    
+    max-width: 235px;
+    min-width: 3235px;
+    height: 400px;
+    padding-left: 8px;
+}
+
+
+.texxt{
+    padding-right: 200%; /* moves book*/
+    
+}
+
+.texxt_book{
+    margin-top: 25px;
+    width: 250px;
+    height: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+
+
+
+
+.texxt3{ /* Text BG color*/
+
+    background-color: #d9d9ea;
+    padding-left: 30%;
+     
+     padding-top: 20px;
+     text-align:left
+     
+   
+     height: 400px;
+     margin-top: 10px;
+}
+.texxt4{ /* Text BG color*/
+    
+    font-size: 15px;
+    line-height: 26px;
+    margin-right: 0px;
+    margin-left: -40px;
+    margin-top: 5px;
+    background-color: #d9d9ea;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.mid_body{ /*postion of 3 middle blocks*/
+    padding-left: 7%;
+    
+    /* background-color: brown; */
+}
+
+
+
+
+.button2 button{
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: -40px;
+    text-align: center;
+    width: 220px;
+    height: 50px;
+    display: block;
+    border: none;
+    background-color: #bcbcd9;
+    color: #6667AB;
+    cursor: pointer;
+}
+
+
+
+.button2{
+    background-color: #d9d9ea;
+    margin-bottom: 30px;
+    cursor: pointer;
+    
+
+
+    
+}
+
+
+.space{
+    padding-top: 80px;
+}
+
+.rate{
+    margin-top: 4px;
+    margin-left: 20%;
+}
+.rate2{
+    margin-top: 0px;
+    margin-left: 20%;
+}
+.rate img{
+    margin-left: -2px;
+    width: 20px;
+    height: 20px;
+}
+
+.last_text{
+    margin: -15px 0px;
+    margin-left: -40px;
+    
+    padding-right: 90px;
+    background-color:#d9d9ea;
+}
+

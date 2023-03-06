@@ -1,0 +1,394 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0;
+    /* background-color: #f7f7f7; */
+}
+
+
+
+
+img{
+    width: 170px;
+    height: 150px;
+    /* margin-right: auto; */
+    cursor: pointer;
+    /* background-color: aqua; */
+}
+
+
+
+
+header{ /*BTS main logo*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 49px 4% 29px 4%;
+    /* margin-left: 60px; */
+    /* background-color: aquamarine; */
+}
+
+.nav_links{ /* Header links Spacing*/
+    list-style: none;
+    padding-bottom: 70px;
+    cursor: pointer;
+    
+    
+}
+.nav_links2 { /* Header links style*/
+    list-style: none;
+    cursor: pointer;
+    padding-left: 10px;
+
+}
+.nav_links li{
+   display: inline-block;
+   padding:0px 20px;
+    padding-left: 40px;
+    font-weight: bold;
+   
+}
+.nav_links2 li{
+    display: inline-block;
+    padding:0px 20px;
+    padding-left: 90px;
+    /* background-color: aquamarine; */
+} 
+
+.brand_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.brand_container{
+    display: flex;
+    align-items: center;
+}
+
+.bts .bts2{
+    font-weight: bold;
+    font-size: 30px;
+    /* position: absolute; */
+    /* left: 240px;    */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+.bar{
+    background-color: #6667AB;
+    display: flex;
+    justify-content: space-between;
+    
+    padding-left: 4%;
+    padding-right: 4%;
+    /* padding-bottom: -90px; */
+    /* width:auto;  */
+}  
+
+.search_container{
+    background-color: #6667AB;
+    /* height: 30px; */
+    /* margin-left: 200px; */
+    /* margin-top:70px ; */
+    /* width: 300px; */
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+
+.armyCon{
+    /* background-color: aqua; */
+    margin-top: -70px;
+    padding-bottom: 30px;
+    
+}
+
+.armyzz{
+    /* background-color: aquamarine; */
+    margin-left: 65%;
+    width: 22px;
+    height: 40px;
+}
+
+.enter{
+    padding-bottom: 40px;
+    color: white;
+    background-color: #6667AB;
+}
+
+
+input[type='search']{
+    width: 350px;
+    height: 50px;
+    border: 1px white;
+    
+    padding: 0px 10px 0px 20px;
+    border-radius: 10px;
+ 
+}
+
+::placeholder{
+    color: black;
+}
+
+
+
+input[type='search']{
+    background: url(https://img.icons8.com/ios/512/search--v4.png) 7px center no-repeat;
+    background-size: 40px;
+    background-position: 290px;
+    background-color: #d9d9d9;
+}
+
+.button_R {
+    padding-top:21px ;
+    background-color: #6667AB; 
+}
+
+.button_R label{
+    background-color: #6667AB;
+    color: white;
+}
+
+
+
+.namjoon img{
+    /* height: 300px; */
+    /* width: 300px; */
+    border-radius: 200px;
+    /* margin-left: 100px; */
+    max-width: 120%;
+    height: 170px;
+    object-fit: cover;
+}
+
+
+.grid-container {
+    overflow: hidden;
+    /* display: grid; */
+    display: flex;
+    margin-left: auto;
+    
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap: -50px;  */
+}
+
+.mid_body{    /*Main body div for mid grid*/
+    padding-top: 30px;
+    /* background-color: aqua; */
+    overflow: hidden;
+    display: grid;
+    display: flex;
+    /* margin-left: auto; */
+    /* padding-left: 200px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px; 
+}
+
+.mid_body p{
+    
+    max-width: 335px;
+    min-width: 335px;
+    height: 400px;
+    padding-left: 8px;
+}
+
+.ul_text{
+    padding-left: 20px;
+    text-decoration: underline;
+    background-color: #d9d9ea;
+    line-height: 25px;
+    
+}
+.texxt{
+    
+    padding-right: 10%;
+    padding-top: 10px;
+    flex-wrap: wrap;
+   
+    
+}
+
+.book5{
+    
+    width: 380px;
+    height: 345px;
+}
+
+.button7 button{
+    margin-top: -0px;
+    margin-left: 0px;
+    text-align: center;
+    width: 260px;
+    height: 20px;
+    display: block;
+    border: none;
+    background-color: #6667ab;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+
+.button7{
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+}
+
+.texxt2{
+    
+    padding-top: 10px;
+    max-width: 279px;
+    min-width: 279px; 
+    
+}
+
+.texxt,.texxt2{ /* Text BG color*/
+    background-color: #f7f7f7;
+}
+
+.texxt3{ /* Text BG color*/
+    margin-left: 50px;
+    background-color: #f7f7f7;
+    max-width: 110px;
+    min-width: 110px;
+}
+.texxt4{ /* Text BG color*/
+    font-size: 15px;
+    
+    margin-top: 10px;
+    background-color: #f7f7f7;
+    max-width: 260px;
+    min-width: 260px;
+    padding-left: 5PX;
+    
+}
+
+.texxt5{ /* Text BG color*/
+    font-size: 15px;
+    
+    margin-top: 10px;
+    background-color: #f7f7f7;
+    max-width: 260px;
+    min-width: 260px;
+    padding-left: 5PX;
+    
+}
+
+
+
+
+
+.mid_body{ /*postion of 3 middle blocks*/
+    padding-left: 3%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: brown; */
+}
+
+.book_texx{ /* middle book postion*/
+    margin-left: 50px;
+    width: 260px;
+    
+}
+
+.button6 button{
+    margin-top: -0px;
+    margin-left: 50px;
+    text-align: center;
+    width: 260px;
+    height: 20px;
+    display: block;
+    border: none;
+    background-color: #6667ab;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+
+.button6{
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+}
+
+
+.book_texx2{
+    margin-left: 50px;
+    width: 260px;
+}
+
+
+.button1 button{
+    margin-top: -0px;
+    margin-left: 50px;
+    text-align: center;
+    width: 260px;
+    height: 20px;
+    display: block;
+    border: none;
+    background-color: #6667ab;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+
+.button1{
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+    
+}
+
+.button2 button{
+    margin-top: -0px;
+    margin-left: 5px;
+    text-align: center;
+    width: 256px;
+    height: 20px;
+    display: block;
+    border: none;
+    background-color: #6667ab;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+
+
+
+.button2{
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+    
+}
+
+.button5 button{
+    margin-top: -0px;
+    margin-left: 5px;
+    text-align: center;
+    width: 370px;
+    height: 20px;
+    display: block;
+    border: none;
+    background-color: #6667ab;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+
+
+
+.button5{
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+.space{
+    padding-top: 80px;
+}
+
+
+@media screen and (max-width: 753px) {
+    .bar{
+        flex-direction: column;
+    }
+}

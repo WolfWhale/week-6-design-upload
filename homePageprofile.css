@@ -1,0 +1,428 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+
+
+
+img{
+    width: 170px;
+    height: 150px;
+    
+    cursor: pointer;
+    /* background-color: aqua; */
+}
+
+
+
+
+header{ /*BTS main logo*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 49px 4% 29px 4%;
+    /* background-color: aquamarine; */
+}
+
+.nav_links{ /* Header links Spacing*/
+    list-style: none;
+    padding-bottom: 70px;
+    cursor: pointer;
+    
+    
+}
+.nav_links2 { /* Header links style*/
+    list-style: none;
+    cursor: pointer;
+    padding-left: 10px;
+
+}
+.nav_links li{
+   display: inline-block;
+   padding:0px 20px;
+    padding-left: 40px;
+    font-weight: bold;
+   
+}
+.nav_links2 li{
+    display: inline-block;
+    padding:0px 20px;
+    padding-left: 90px;
+    /* background-color: aquamarine; */
+} 
+
+.brand_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.brand_container{
+    display: flex;
+    align-items: center;
+}
+
+.bts .bts2{
+    font-weight: bold;
+    font-size: 30px;
+    /* position: absolute; */
+    /* left: 240px;    */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.bar{
+    background-color: #6667AB;
+    display: flex;
+    padding:15px;
+    width:auto; 
+}   
+
+.armyCon{
+    /* background-color: aqua; */
+    margin-top: -70px;
+    padding-bottom: 30px;
+    
+}
+
+.armyzz{
+    /* background-color: aquamarine; */
+    margin-left: 65%;
+    width: 22px;
+    height: 40px;
+}
+
+
+
+
+.grid-container {
+    overflow: hidden;
+    /* display: grid; */
+    display: flex;
+    margin-left: auto;
+    padding-left: 350px;
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap: -50px;  */
+}
+
+.mid_body{    /*Main body div for mid grid*/
+    padding-top: 30px;
+    
+    /* background-color: aqua; */
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px; 
+}
+
+
+
+
+.ul_text{
+    padding-left: 20px;
+    text-decoration: underline;
+    background-color: #d9d9ea;
+    line-height: 25px;
+    
+}
+.texxt{
+    padding-left: -200px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+.texxt_book{
+    margin-top: 25px;
+    width: 250px;
+    height: 420px;
+    /* margin-right: 10px; */
+    position: fixed;
+}
+
+
+.texxt2{
+    padding-top: 10px;
+    max-width: 279px;
+    min-width: 279px; 
+   
+}
+
+.txm, .texxt2{ /* Text BG color*/
+    background-color: #d9d9ea;
+}
+.texxt3{ /* Text BG color*/
+
+    background-color: #d9d9ea;
+   
+    padding-left: 260px; /* moves book over*/
+    padding-right: 40px;
+    padding-top: 20px;
+    height: 490px;
+    margin-top: 30px;
+}
+.texxt4{ /* Text BG color*/
+    
+    font-size: 15px;
+    line-height: 26px;
+    
+    margin-top: 5px;
+    background-color: #d9d9ea;
+    max-width: 569px; /* changes the width on the purple box to right*/
+    min-width: 669px; /* changes the width on the purple box to right*/
+    
+    
+}
+
+
+.mid_body{ /*postion of 3 middle blocks*/
+    padding-left: 50px;
+    padding-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    /* background-color: brown; */
+}
+
+.book_texx{ /* middle book postion*/
+    margin-left: 50px;
+
+    
+}
+
+.tezz{ /* text in middle box*/
+    line-height: 25px;
+    background-color: #d9d9ea;
+    margin-top: 10px  
+    
+}
+
+.button1 button{
+    margin-top: 20px;
+    margin-left: 28px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    display: block;
+    border: none;
+    background-color: #6667ab;
+    color: #d9d9ea;
+    cursor: pointer;
+}
+
+.button1{
+    background-color: #d9d9ea;
+    margin-bottom: 20px;
+    
+}
+
+.button2 button{
+   
+    margin-top: 120px;
+    margin-left: 240px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    display: block;
+    border: none;
+    background-color: #afacd4;
+    color: #d9d9ea;
+    cursor: pointer;
+}
+
+
+
+.button2{
+    background-color: #d9d9ea;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.top10{
+    padding: 40px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+    /* width: 500px; */
+    width: auto;
+    height:220px  
+     
+    
+}
+
+.heart{
+    padding-left: 30px;
+    padding-top: 7px;
+    width: 200;
+    height: 200px;
+    padding: 9px 0px;
+    margin-bottom: 50px;
+    
+}
+
+.grid_child_2 img{
+    padding: 20px;
+    height: 90px;
+    width: 500px;
+    
+}
+
+
+
+.box_text{
+    /* padding-top: 20px; */
+    /* margin-top: 60px; */
+    height: 305px;
+    width: 500px;
+    /* margin-right: 50px; */
+    
+}
+
+.box{
+    
+    margin-right: 50px;
+    margin-top: 80px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    height: auto; 
+     
+}
+
+.space{
+    padding-top: 80px;
+}
+
+.rate{
+    background-color: #d9d9ea;
+    margin-top: 4px;
+    margin-left: -10px;
+}
+.rate2{
+    background-color: #d9d9ea;
+    margin-top: 0px;
+    margin-left: 250px;
+}
+.rate img{
+    background-color: #d9d9ea;
+    margin-left: -2px;
+    width: 20px;
+    height: 20px;
+}
+
+.elis{
+    
+    
+    margin-left: -290px;
+    width: 20px;
+}
+.elis img{
+    margin-top: -50px;
+    margin-left: 160px;
+    width: 100px;
+    height: 100px;
+    background-color: #d9d9ea;
+}
+
+.text_elis {
+    margin-top: -30px;
+    background-color: #d9d9ea;
+    margin-right: 20px;
+    
+    
+}
+
+.title{
+    padding-bottom: -10px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    margin-left:-130px ;
+    background-color: #d9d9ea;
+}
+
+.text_elis u{
+    background-color: #d9d9ea;
+}
+
+.profile1{
+    background-color: #d9d9ea;
+    margin-left: -200px;
+    margin-top: 20px;
+   
+}
+
+
+.profile2{
+    background-color: #d9d9ea;
+    margin-left: -200px;
+    margin-top: 120px;
+    
+}
+
+.profile1_bu{
+    background-color: #b2b3d5;
+    border: none;
+    border-radius: 20px;
+    width: 550px;
+    height: 40px;
+    cursor: pointer;
+   
+}
+
+.profile2_bu{
+    background-color: #b2b3d5;
+    border: none;
+    border-radius: 20px;
+    width: 550px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+
+
+.eli_con{
+    margin-left: 15px;
+    padding-left: 20px;
+}
+
+.eli{
+    padding-left: -80px;
+    width: 170px;
+    height: 160px;
+}
+
+
+.army_tall_con{
+    /* background-color: aqua; */
+    margin-left: -220px;
+    margin-top: 170px   
+    
+}
+
+.army_tall{
+    width: 120px;
+    height: 300px;
+    padding-left: 
+    /* position: fixed; */
+}
+
+
+.profile_nameCon{
+   margin-left: -150px;
+
+    margin-top: 485px
+    
+}
+
+.profile_name{
+    background-color: #b2b3d5;
+    color: #f7f7f7;
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+}

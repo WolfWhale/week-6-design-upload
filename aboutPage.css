@@ -1,0 +1,163 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+    text-decoration: none;
+    
+    tex
+}
+
+
+
+
+img{
+    width: 170px;
+    height: 150px;
+    cursor: pointer;
+    /* background-color: aqua; */
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 49px 4% 29px 4%;
+    /* background-color: aquamarine; */
+}
+
+.nav_links {
+    list-style: none;
+    padding-bottom: 70px;
+    cursor: pointer;
+    
+    text-decoration-color: black;
+    
+    
+}
+.nav_links2 {
+    list-style: none;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.nav_links li{
+   display: inline-block;
+   padding:0px 20px;
+    padding-left: 40px;
+    font-weight: bold;
+   
+}
+.nav_links2 li{
+    display: inline-block;
+    padding:0px 20px;
+    padding-left: 90px;
+    
+    
+    
+   
+    /* background-color: aquamarine; */
+} 
+
+.brand_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.brand_container{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.bts .bts2{
+    font-weight: bold;
+    font-size: 30px;
+    /* position: absolute; */
+    /* left: 240px;    */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+.signup_logo{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 65px;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(255, 136, 0);
+}
+
+.signup_right{
+   background-color: blue;
+    display: flex;
+   right: -40px;
+    padding-right: 40px;   
+}
+
+.text_b{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 65px;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(255, 136, 0);
+}
+
+
+.bar{
+    background-color: #6667AB;
+    display: flex;
+    padding:15px;
+    width:auto; 
+    
+}   
+
+
+.grid-container {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap ;
+    margin-left: auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid_child_1{
+    padding-top: 20px;
+    
+    
+    /* position: relative; */
+    
+    /* background-color: aqua; */
+}
+.grid_child_2{
+    padding-top: 20px;
+    
+    
+    /* background-color: brown; */
+    /* width: auto; */
+    /* position: relative; */
+}
+
+.grid_child_1 img{
+    width: 600px;
+    height: 600px;
+   
+    
+    
+    /* width: auto; */
+    /* width: auto;
+    height: auto; */
+}
+.grid_child_2 img{
+    width:600px;
+    height: 600px;
+    
+    
+    /* width: auto; */
+    /* width: auto;
+    height: auto; */
+}

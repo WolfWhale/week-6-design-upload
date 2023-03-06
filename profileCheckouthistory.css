@@ -1,0 +1,392 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+img{
+    width: 170px;
+    height: 150px;
+    
+    cursor: pointer;
+    /* background-color: aqua; */
+}
+
+
+
+
+header{ /*BTS main logo*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 49px 4% 29px 4%;
+    /* background-color: aquamarine; */
+}
+
+.nav_links{ /* Header links Spacing*/
+    list-style: none;
+    padding-bottom: 70px;
+    cursor: pointer;
+    
+    
+}
+.nav_links2 { /* Header links style*/
+    list-style: none;
+    cursor: pointer;
+    padding-left: 10px;
+
+}
+.nav_links li{
+   display: inline-block;
+   padding:0px 20px;
+    padding-left: 40px;
+    font-weight: bold;
+   
+}
+.nav_links2 li{
+    display: inline-block;
+    padding:0px 20px;
+    padding-left: 90px;
+    /* background-color: aquamarine; */
+} 
+
+.brand_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.brand_container{
+    display: flex;
+    align-items: center;
+}
+
+.bts .bts2{
+    font-weight: bold;
+    font-size: 30px;
+    /* position: absolute; */
+    /* left: 240px;    */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.bar{
+    background-color: #6667AB;
+    display: flex;
+    padding:40px;
+    width:auto; 
+    
+}    
+
+
+.armyCon{
+    /* background-color: aqua; */
+    margin-top: -70px;
+    padding-bottom: 30px;
+    
+}
+
+.armyzz{
+    /* background-color: aquamarine; */
+    margin-left: 65%;
+    width: 22px;
+    height: 40px;
+}
+
+
+
+.enter{
+    padding-bottom: 40px;
+    color: white;
+    background-color: #6667AB;
+}
+
+
+
+
+
+
+.button_R {
+    padding-top:21px ;
+    background-color: #6667AB; 
+}
+
+.button_R label{
+    background-color: #6667AB;
+    color: white;
+}
+
+
+
+
+.grid-container {
+    overflow: hidden;
+    /* display: grid; */
+    display: flex;
+    margin-left: auto;
+    
+    grid-template-columns: 1fr 1fr;
+}
+
+.mid_body{    /*Main body div for mid grid*/
+    padding-top: 30px;
+    /* background-color: aqua; */
+    overflow: hidden;
+    display: grid;
+    display: flex;
+    /* margin-left: auto; */
+    /* padding-left: 200px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px; 
+}
+
+.mid_body p{
+    background-color:#d9d9ea;
+    max-width: 335px;
+    min-width: 335px;
+    height: 400px;
+    
+}
+
+.ul_text{
+    padding-left: 20px;
+    text-decoration: underline;
+    background-color: #d9d9ea;
+    line-height: 25px;
+    
+}
+.texxt{
+    padding-right: 10%;
+    padding-top: 10px;
+    
+    
+}
+
+.book5{
+padding: 7%;
+    width: 280px;
+    height: 345px;
+}
+
+.button7 button{
+    margin-top: -0px;
+    margin-left: 0px;
+    text-align: center;
+    width: 260px;
+    height: 20px;
+    display: block;
+    border: none;
+    background-color: #6667ab;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+
+.button7{
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+}
+
+.texxt2{
+    padding-left: 20px;
+    padding-top: 10px;
+    max-width: 309px;
+    min-width: 309px; 
+}
+
+.texxt,.txm, .texxt2{ /* Text BG color*/
+    background-color: #f7f7f7;
+}
+.texxt3{ /* Text BG color*/
+    margin-left: 50px;
+    background-color: #f7f7f7;
+    max-width: 430px;
+    min-width: 430px;
+}
+.texxt4{ /* Text BG color*/
+    font-size: 15px;
+    
+    margin-top: 10px;
+    background-color: #f7f7f7;
+    max-width: 260px;
+    min-width: 260px;
+    padding-left: 5PX;
+    
+}
+
+.texxt5{ /* Text BG color*/
+    font-size: 15px;
+    
+    margin-top: 10px;
+    background-color: #f7f7f7;
+    max-width: 260px;
+    min-width: 260px;
+    padding-left: 5PX;
+    
+}
+
+
+
+
+
+.mid_body{ /*postion of 3 middle blocks*/
+    padding-left: 3%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: brown; */
+}
+
+.book_texx{ /* middle book postion*/
+   
+    width: 260px;
+    
+}
+
+.button6 button{
+    margin-top: -0px;
+    margin-left: 50px;
+    text-align: center;
+    width: 260px;
+    height: 20px;
+    display: block;
+    border: none;
+    background-color: #6667ab;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+
+.button6{
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+}
+
+.buttonz_container, button{
+    width: 400px;
+}
+
+
+.book_texx2{
+    margin-left: 50px;
+    width: 260px;
+}
+
+.tezz{ /* text in middle box*/
+    line-height: 25px;
+    background-color: #d9d9ea;
+    margin-top: 10px  
+    
+}
+
+.button1 button{
+    margin-top: -0px;
+    margin-left: 50px;
+    text-align: center;
+    width: 260px;
+    height: 20px;
+    display: block;
+    border: none;
+    background-color: #6667ab;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+
+.button1{
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+    
+}
+
+.button2 button{
+    margin-top: -0px;
+    margin-left: 5px;
+    text-align: center;
+    width: 256px;
+    height: 20px;
+    display: block;
+    border: none;
+    background-color: #6667ab;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+
+
+
+.button2{
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+    
+}
+
+.button5 button{
+    margin-top: -0px;
+    margin-left: 5px;
+    text-align: center;
+    width: 370px;
+    height: 20px;
+    display: block;
+    border: none;
+    background-color: #6667ab;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+
+
+
+.button5{
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.top10{
+    padding: 40px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+    /* width: 500px; */
+    width: auto;
+    height:220px  
+     
+    
+}
+
+
+
+.grid_child_2 img{
+    padding: 20px;
+    height: 90px;
+    width: 500px;
+    
+}
+
+
+
+.box_text{
+    /* padding-top: 20px; */
+    /* margin-top: 60px; */
+    height: 305px;
+    width: 500px;
+    /* margin-right: 50px; */
+    
+}
+
+.box{
+    
+    margin-right: 50px;
+    margin-top: 80px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    height: auto; 
+     
+}
+
+.space{
+    padding-top: 80px;
+}
+
+
